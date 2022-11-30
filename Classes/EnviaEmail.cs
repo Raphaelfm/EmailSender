@@ -25,7 +25,6 @@ namespace EmailSender.Classes
                     smtpMessage.IsBodyHtml = false;
                     smtp.Send(smtpMessage);
                 }
-
             }
             catch (Exception ex)
             {
